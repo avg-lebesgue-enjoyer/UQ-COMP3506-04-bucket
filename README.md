@@ -1,6 +1,6 @@
 # Tasks
 1. In `src/main/java/uq/comp3506/wk04/Bucket.java`, implement **bucket sort** to sort a `char[]`.
-2. In `src/main/java/uq/comp3506/wk04/Lexicographic.java`, implement **lexicographi sort** to sort a `String[]`, assuming all strings to have the same length.
+2. In `src/main/java/uq/comp3506/wk04/Lexicographic.java`, implement **lexicographic sort** to sort a `String[]`, assuming all strings to have the same length.
 3. *(Just for fun!)* Extend your *lexicographic sort* implementation to handle strings of unequal length.
 
 # Testing your code
