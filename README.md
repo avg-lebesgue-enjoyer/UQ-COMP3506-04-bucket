@@ -5,15 +5,15 @@
 
 # Testing your code
 1. Compile your code. You can do this with any of the following:
-  - On unix machines: `./compile.sh` in the terminal
+  - On unix machines: `./compile.sh` in the terminal (you may need to `chmod 777 compile.sh` first)
   - In VSCode: `F6` --> "Compile everything!"
   - Anything else: `javac -d out src/main/java/uq/comp3506/wk04/*.java test/*.java` in the terminal
 2. Run the associated `test/TestWhatever.java` class. You can do this with any of the following:
-  - On unix machines: `./testBucket.sh` or `./testLexico.sh` in the terminal
+  - On unix machines: `./testBucket.sh` or `./testLexico.sh` in the terminal (you may need to `chmod 777` them first)
   - In VSCode: `F6` --> "Run tests in the currently opened file (ensure you've compiled first!)"
   - Anything else:
-    - Test bucket sort: `java -cp out -ea TestBucket` in the terminal
-    - Test lexicographic sort: `java -cp out -ea TestLexicographic` in the terminal
+    - Test bucket sort: `java -cp out -ea 'test/TestBucket'` in the terminal
+    - Test lexicographic sort: `java -cp out -ea 'test/TestLexicographic'` in the terminal
 
 # Meme
 <img src="./bucket.webp" alt="Dear God">

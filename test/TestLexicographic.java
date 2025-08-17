@@ -20,7 +20,7 @@ public class TestLexicographic {
     String[] input;
     String[] expectedResult;
     String[] actualResult;
-    System.out.println("<?> Testing bucket sort...");
+    System.out.println("<?> Testing lexicographic sort...");
 
     System.out.println("\t<?> Empty array...");
     input = new String[] {};
