@@ -1,0 +1,37 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile everything!",
+      "type": "shell",
+      "command": "javac -d out src/main/java/uq/comp3506/wk04/*.java test/*.java",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run tests in the currently opened file (ensure you've compiled first!)",
+      "type": "shell",
+      "command": "java",
+      "args": [
+        {
+          "value": "-cp",
+          "quoting": "strong"
+        },
+        {
+          "value": "out",
+          "quoting": "strong"
+        },
+        {
+          "value": "-ea",
+          "quoting": "strong"
+        },
+        {
+          "value": "${fileBasenameNoExtension}",
+          "quoting": "strong"
+        }
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
