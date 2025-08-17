@@ -27,7 +27,7 @@
           "quoting": "strong"
         },
         {
-          "value": "${fileBasenameNoExtension}",
+          "value": "test/${fileBasenameNoExtension}",
           "quoting": "strong"
         }
       ],
