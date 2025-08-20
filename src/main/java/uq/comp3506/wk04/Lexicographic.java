@@ -6,15 +6,15 @@ public class Lexicographic {
 
   /**
    * Uses lexicographic sort to sort the given {@code String[]}, where each of the {@code String}s has
-   * the same length {@code length}, and each character of each string is guaranteed to be a lowercase
+   * the same length {@code numCharsPerString}, and each character of each string is guaranteed to be a lowercase
    * English alphabet character.
    * @param me The array to sort.
-   * @param length The length of each element of {@code me}.
-   * @requires {@code me[i].length == length} for each {@code i = 0, 1, ..., me.length - 1}.
+   * @param numCharsPerString The length of each element of {@code me}.
+   * @requires {@code me[i].length == numCharsPerString} for each {@code i = 0, 1, ..., me.length - 1}.
    * @requires {@code me[i].charAt(j)} is one of the chracters {@code 'a'}, ..., {@code 'z'} for each
-   *           {@code i = 0, 1, ..., me.length - 1} and each {@code j = 0, 1, ..., length - 1}.
+   *           {@code i = 0, 1, ..., me.length - 1} and each {@code j = 0, 1, ..., numCharsPerString - 1}.
    */
-  public static void sort(String[] me, int length) {
+  public static void sort(String[] me, int numCharsPerString) {
     /* Tips:
      * - You may want to implement the helper method `private void help(String[], int)` below
      */
